@@ -1,0 +1,51 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.App {
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Menu, .Quiz, .Finish {
+  margin: 10px;
+  color: white;
+  background-color: skyblue;
+  width: 75%;
+  min-height: 75vh;
+  display: flex;
+  flex-direction:column;
+  align-items: center;flex-direction:column;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.Menu button, .Menu input{
+  margin: 10px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Quiz button, .Finish button{
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:active {
+  background-color: white ;
+}
